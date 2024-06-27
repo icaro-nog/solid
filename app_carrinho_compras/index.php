@@ -5,4 +5,4 @@ require __DIR__."/vendor/autoload.php";
 
 use src\CarrinhoCompra;
 
-echo CarrinhoCompra::teste();
+echo CarrinhoCompra::teste(); 
