@@ -7,5 +7,10 @@
             "email": "icarolemosleal@outlook.com.br"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
 }
