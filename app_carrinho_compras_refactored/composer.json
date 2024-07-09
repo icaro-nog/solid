@@ -1,0 +1,16 @@
+{
+    "name": "programador/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ícaro Nogueira",
+            "email": "icarolemosleal@outlook.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
+}
