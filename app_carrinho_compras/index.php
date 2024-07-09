@@ -7,6 +7,8 @@ use src\CarrinhoCompra;
 
 $carrinho1 = new CarrinhoCompra();
 
+echo '<h3> Sem SRP </h3>';
+
 print_r($carrinho1->exibirItens());
 echo '<br>';
 echo 'valor total: '.$carrinho1->exibirValorTotal();
