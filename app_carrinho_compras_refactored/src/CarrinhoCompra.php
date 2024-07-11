@@ -10,7 +10,7 @@ class CarrinhoCompra {
     private $itens;
 
     // métodos
-    public function __construc(){
+    public function __construct(){
         $this->itens = [];
     }
 
