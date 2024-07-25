@@ -2,6 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use src\Item;
+use src\Pedido;
 
 class ItemTest extends TestCase {
 
@@ -59,5 +60,21 @@ class ItemTest extends TestCase {
         $item->setValor(0);
         $item->setDescricao('');
         $this->assertEquals(false, $item->itemValido());
+    }
+
+    public function testEstadoInicialPedido(){
+        $pedido = new Pedido();
+
+        // pedido não pode estar com status 'confirmado' ao ser iniciado
+        $this->assertNotEquals('confirmado', $pedido->getStatus());
+
+        // pedido não pode estar com valor != de 0 ao ser iniciado
+        $this->assertTrue($pedido->getValorPedido() == 0); // assertEquals pode ser usado também neste caso
+
+        // pedido não pode estar preenchido com itens
+        $this->assertEquals($pedido->getCarrinhoCompra()->getItens(), []);
+
+        // método precisa retornar false, pois a função realiza uma validação semelhante a anterior (se o carrinho não está vazio)
+        $this->assertFalse($pedido->confirmar());
     }
 }

@@ -29,6 +29,14 @@ class Pedido {
         $this->status = $status;
     }
 
+    public function setValorPedido(float $valorPedido){
+        $this->valorPedido = $valorPedido;
+    }
+
+    public function getValorPedido(){
+        return $this->valorPedido;
+    }
+
     public function confirmar(){
 
         if($this->carrinhoCompra->validarCarrinho()){
