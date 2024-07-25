@@ -28,16 +28,6 @@ class ItemTest extends TestCase {
 
     }
 
-    public function testGetESetValor(){
-
-        $valor = 35.92;
-
-        $item = new Item();
-        $item->setValor($valor);
-        $this->assertEquals($valor, $item->getValor());
-
-    }
-
     public function testItemValido(){
 
         $item = new Item();
@@ -76,5 +66,24 @@ class ItemTest extends TestCase {
 
         // método precisa retornar false, pois a função realiza uma validação semelhante a anterior (se o carrinho não está vazio)
         $this->assertFalse($pedido->confirmar());
+    }
+
+    // provedor de dados para teste
+    /**
+     * @dataProvider dataValores
+     */
+    public function testGetESetValor($valor){
+        $item = new Item();
+        $item->setValor($valor);
+        $this->assertEquals($valor, $item->getValor());
+    }
+
+    public static function dataValores() {
+        return [
+            [100],
+            [-2],
+            [0],
+            [5],
+        ];
     }
 }
