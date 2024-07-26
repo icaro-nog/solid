@@ -1,0 +1,9 @@
+{
+    "name": "programador/app_etl",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "src\\" : "src/"
+        }
+    }
+}
