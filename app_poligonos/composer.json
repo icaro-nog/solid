@@ -1,0 +1,15 @@
+{
+    "name": "programador/app_poligonos",
+    "authors": [
+        {
+            "name": "Ícaro Nogueira",
+            "email": "icaro.nogueira@brudam.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
