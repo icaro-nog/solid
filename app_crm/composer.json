@@ -1,0 +1,9 @@
+{
+    "name": "programador/app_crm",
+    "autoload": {
+        "psr-4": {
+            "Programador\\AppCrm\\": "src/"
+        }
+    },
+    "require": {}
+}
