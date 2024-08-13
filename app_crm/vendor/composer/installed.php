@@ -3,7 +3,7 @@
         'name' => 'programador/app_crm',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a1d40678d2a690c928aa6f41a5512a685be5ae2e',
+        'reference' => 'c5aea6a638a737fa2d29867b87db8c0a41f2fed4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'programador/app_crm' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a1d40678d2a690c928aa6f41a5512a685be5ae2e',
+            'reference' => 'c5aea6a638a737fa2d29867b87db8c0a41f2fed4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
