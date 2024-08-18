@@ -4,11 +4,13 @@ namespace src\dao;
 
 use src\BD;
 use src\interfaces\ICadastro;
+use src\interfaces\ILog;
+use src\interfaces\INotificacao;
 
 use src\componentes\Log;
 use src\componentes\Notificacao;
 
-class UsuarioModel extends BD implements ICadastro{
+class UsuarioModel extends BD implements ICadastro, INotificacao, ILog{
     public function salvar(){
 
     }
