@@ -1,0 +1,10 @@
+{
+    "name": "programador/app_mensageiro",
+    "authors": [
+        {
+            "name": "Ícaro Nogueira",
+            "email": "icaro.nogueira@brudam.com.br"
+        }
+    ],
+    "require": {}
+}
