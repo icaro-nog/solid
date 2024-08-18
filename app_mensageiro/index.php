@@ -2,4 +2,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-echo 'teste';
+use src\Mensageiro;
+
+$msg = new Mensageiro();
+$msg->enviarToken();

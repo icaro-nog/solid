@@ -3,7 +3,7 @@
         'name' => 'programador/app_mensageiro',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'acde700219bf6c361063682c1f0fd305930e6ebf',
+        'reference' => 'd766d3ca6e78b4a51676b278a664c60f2f72b6f7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'programador/app_mensageiro' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'acde700219bf6c361063682c1f0fd305930e6ebf',
+            'reference' => 'd766d3ca6e78b4a51676b278a664c60f2f72b6f7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
